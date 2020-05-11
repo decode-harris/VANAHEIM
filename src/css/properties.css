@@ -1,0 +1,449 @@
+/* homepage props */
+#homepage {
+    color: var(--alt);
+}
+#homepage .title {
+    letter-spacing: 4px;
+    line-height: 100px;
+}
+#homepage .text {
+    line-height: 1.6;
+    font-style: italic;
+    padding-top: var(--sm);
+    padding-left: var(--lg);
+    padding-right: var(--lg);
+    text-align: center;
+}
+
+/* dashboard props */
+#dashboard {
+    color: var(--clr-main);
+}
+#dashboard .elmnts {
+    text-align: center;
+    background: var(--bk-artc);
+}
+#dashboard i {
+    /* font-size: var(--sz-icon); */
+    font-size: calc(var(--sz-icon) * 1.5);
+    padding: var(--sm);
+}
+#dashboard h4 {
+    font-size: var(--sz-tag);
+    text-transform: capitalize;
+    padding-bottom: var(--sm);
+}
+
+/* sharepage props */
+#sharepage {
+    color: var(--clr-main);
+}
+#sharepage .elmnts {
+    text-align: center;
+    background: var(--bk-artc);
+}
+#sharepage .text {
+    padding-bottom: 20px;
+}
+#sharepage ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+}
+#sharepage ul li {
+    margin: auto;
+    list-style-type: none;
+}
+#sharepage i {
+    font-size: calc(var(--sz-icon) * 1.5);
+    transition: 0.5s all ease;
+    padding: 20px 10px;
+}
+#sharepage i:hover {
+    transform: scale(1.3);
+    transition: 200ms all ease-out;
+}
+#sharepage form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+    width: 100%;
+}
+#sharepage form i {
+    padding: var(--sm);
+    font-size: calc(var(--sz-icon) / 1);
+}
+#sharepage form button {
+    background: transparent;
+    border: 3px solid var(--clr-main);
+    border-radius: 10px;
+    color: var(--clr-main);
+    font-family: var(--font-main);
+    font-size: var(--sz-tag);
+    padding: 2px 6px;
+    transition: 0.5s all ease-in;
+
+    width: 30%;
+}
+#sharepage form input {
+    background: transparent;
+    border: 3px solid var(--clr-main);
+    color: var(--clr-main);
+    font-size: var(--sz-tag);
+    font-family: var(--font-main);
+    padding: 2px 6px;
+    margin-bottom: 12px;
+    transition: 0.5s all ease-in;
+
+    width: 50%;
+
+}
+#sharepage form input[type="text"]:focus,
+#sharepage form input[type="email"]:focus {
+    background: var(--clr-main);
+    color: var(--alt);
+
+    width: 60%;
+    height: 60px;
+
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: 0.5s all ease-out;
+}
+#sharepage form input[type="file"]  {
+    background: transparent;
+    text-align: center;
+}
+
+#sharepage .default__file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+#sharepage .default__file + label {
+    background: transparent;
+    border: 3px solid var(--clr-main);
+    color: var(--clr-main);
+
+    font-size: var(--sz-tag);
+    font-family: var(--font-main);
+
+    padding: 2px 6px;
+    margin-bottom: var(--sm);
+    transition: 0.5s all ease-in;
+    width: 50%;
+}
+#sharepage label i {
+    padding: calc(var(--sm) / 2);
+}
+
+/* database props */
+#database {
+    color: var(--clr-main);
+}
+#database .elmnts {
+    text-align: center;
+    background: var(--bk-artc);
+}
+#database i {
+    font-size: calc(var(--sz-icon) * 1.5);
+    padding: calc(var(--sm) / 2);
+}
+
+/* account props */
+#account {
+    color: var(--clr-main);
+}
+#account .elmnts {
+    text-align: center;
+    background: var(--bk-artc);
+}
+#account button {
+    background: transparent;
+    border: 3px solid var(--clr-main);
+    border-radius: 10px;
+    color: var(--clr-main);
+    
+    font-family: var(--font-main);
+    font-size: var(--sz-tag);
+    text-transform: capitalize;
+
+    padding: 3px 9px;
+    transition: 0.5s all ease-in;
+
+    width: 30%;
+}
+#account .tag {
+    padding-left: var(--md);
+    padding-right: var(--md);
+    padding-top: var(--sm);
+    padding-bottom: var(--sm);
+}
+#account i {
+    font-size: calc(var(--sz-icon) * 1.5);
+    padding: var(--sm);
+}
+#account form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+    width: 100%;
+}
+#account form input {
+    background: transparent;
+    border: 3px solid var(--clr-main);
+    color: var(--clr-main);
+    font-size: var(--sz-tag);
+    font-family: var(--font-main);
+    padding: 2px 6px;
+    margin-bottom: 12px;
+    transition: 0.5s all ease-in;
+    width: 50%;
+}
+#account form input[type="text"]:focus,
+#account form input[type="email"]:focus {
+    background: var(--clr-main);
+    color: var(--alt);
+    width: 60%;
+    height: 60px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: 0.5s all ease-out;
+}
+#account .overview {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+}
+#account .access {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+#account .access button {
+    margin-bottom: calc(var(--sm) / 2);
+}
+#account .overview ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+    width: 100%;
+
+    max-width: 900px;
+    /* border: var(--component); */
+}
+#account .overview ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    list-style-type: none;
+    text-transform: capitalize;
+    font-size: var(--sz-panel);
+    
+    height: 100%;
+    width: 100%;
+}
+#account .overview ul li p {
+    text-decoration: underline;
+    font-size: var(--sz-txt);
+    font-family: var(--font-main);
+    padding-top: 10px;
+}
+
+/* settings props */
+#settings {
+    color: var(--clr-main);
+}
+#settings .elmnts {
+    text-align: center;
+    background: var(--bk-artc);
+}
+#settings i {
+    font-size: calc(var(--sz-icon) * 1.5);
+    transition: 0.5s all ease;
+    padding: calc(var(--sm) / 4);
+}
+#settings ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+}
+#settings ul li {
+    margin: auto;
+    list-style-type: none;
+}
+#settings ul li button {
+    width: 50px;
+    height: 50px;
+    border: 3px solid var(--alt);
+}
+/* btn : interface */
+#settings #btn__blue {
+    background: blue;
+}
+#settings #btn__red {
+    background: red;
+}
+#settings #btn__green {
+    background: green;
+}
+#settings #btn__purple {
+    background: purple;
+}
+#settings #btn__orange {
+    background: orange;
+}
+#settings #btn__yellow {
+    background: yellow;
+}
+/* btn : panels */
+#settings #btn__bluescale {
+    background: blue;
+}
+#settings #btn__redscale {
+    background: red;
+}
+#settings #btn__greenscale {
+    background: green;
+}
+#settings #btn__purplescale {
+    background: purple;
+}
+#settings #btn__orangescale {
+    background: orange;
+}
+#settings #btn__yellowscale {
+    background: yellow;
+}
+
+/* support props */
+#support {
+    color: var(--clr-main);
+}
+#support .elmnts {
+    text-align: center;
+    background: var(--bk-artc);
+}
+#support .title__panel {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#support i {
+    font-size: calc(var(--sz-icon) * 1.5);
+    transition: 0.5s all ease;
+    padding: 20px 10px;
+}
+#support ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 100%;
+    width: 100%;
+}
+#support ul li {
+    font-size: var(--sz-panel);
+    font-style: italic;
+    list-style-type: none;
+    margin: auto;
+}
+#support ul li button {
+    border: 3px solid var(--alt);
+    width: 50px;
+    height: 50px;
+}
+#support form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 100%;
+    width: 100%;
+    max-width: 600px;
+}
+#support form input {
+    background: transparent;
+    border: 3px solid var(--clr-main);
+    color: var(--clr-main);
+    font-size: var(--sz-tag);
+    font-family: var(--font-main);
+    
+    padding: 2px 6px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    transition: 0.5s all ease-in;
+    width: 50%;
+}
+#support form input[type="text"]:focus,
+#support form input[type="email"]:focus,
+#support form textarea:focus {
+    background: var(--clr-main);
+    color: var(--alt);
+
+    width: 60%;
+    height: 60px;
+
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: 0.5s all ease-out;
+}
+#support form input[type="file"]  {
+    background: transparent;
+    text-align: center;
+}
+#support textarea {
+    width: 50%;
+    background: transparent;
+    border: 3px solid var(--clr-main);
+    color: var(--clr-main);
+    font-size: var(--sz-tag);
+    font-family: var(--font-main);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+#support form button {
+    background: transparent;
+    border: 3px solid var(--clr-main);
+    border-radius: 10px;
+    color: var(--clr-main);
+    font-family: var(--font-main);
+    font-size: var(--sz-tag);
+    padding: 2px 6px;
+    transition: 0.5s all ease-in;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 30%;
+}

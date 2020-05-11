@@ -1,0 +1,128 @@
+/* media : desktop */
+@media (min-width: 960px) {
+/* 
+    article elmnts
+    [ id ] [ container ] [ elmnt ] 
+
+    #homepage  + elmnts
+    #dashboard + elmnts
+    #sharepage + elmnts
+    #database + elmnts
+    #account + elmnts
+    #settings + elmnts
+    #support + elmnts
+
+*/
+    
+    /* homepage layout */
+    #homepage .elmnts:nth-child(1) {
+        grid-column: span 12;
+    }
+    /* dashboard layout */
+    #dashboard .elmnts:nth-child(1) {
+        grid-column: span 3;
+        grid-row: span 6;
+    }
+    #dashboard .elmnts:nth-child(2) {
+        grid-column: span 3;
+        grid-row: span 3;
+    }
+    #dashboard .elmnts:nth-child(3) {
+        grid-column: span 3;
+        grid-row: span 3;
+    }
+    #dashboard .elmnts:nth-child(4) {
+        grid-column: span 3;
+        grid-row: span 3;
+    }
+    #dashboard .elmnts:nth-child(5) {
+        grid-column: span 5;
+        grid-row: span 3;
+    }
+    #dashboard .elmnts:nth-child(6) {
+        grid-column: span 4;
+        grid-row: span 3;
+    }
+    /* sharepage layout */
+    #sharepage .elmnts:nth-child(1) {
+        grid-column: span 3;
+        grid-row: span 4;
+    }
+    #sharepage .elmnts:nth-child(2) {
+        grid-column: span 9;
+        grid-row: span 2;
+    }
+    #sharepage .elmnts:nth-child(3) {
+        grid-column: span 9;
+        grid-row: span 2;
+    }
+    /* database layout */
+    #database .elmnts:nth-child(1) {
+        grid-column: span 3;
+        grid-row: span 4;
+    }
+    #database .elmnts:nth-child(2) {
+        grid-column: span 9;
+        grid-row: span 1;
+    }
+    #database .elmnts:nth-child(3) {
+        grid-column: span 9;
+        grid-row: span 1;
+    }
+    #database .elmnts:nth-child(4) {
+        grid-column: span 9;
+        grid-row: span 1;
+    }
+    #database .elmnts:nth-child(5) {
+        grid-column: span 9;
+        grid-row: span 1;
+    }
+    /* account layout */
+    #account .elmnts:nth-child(1) {
+        grid-column: span 3;
+        grid-row: span 5;
+    }
+    #account .elmnts:nth-child(2) {
+        grid-column: span 9;
+        grid-row: span 4;
+    }
+    #account .elmnts:nth-child(3) {
+        grid-column: span 9;
+        grid-row: span 1;
+    }
+    /* settings layout */
+    #settings .elmnts:nth-child(1) {
+        grid-column: span 3;
+        grid-row: span 3;
+    }
+    #settings .elmnts:nth-child(2) {
+        grid-column: span 9;
+        grid-row: span 1;
+    }
+    #settings .elmnts:nth-child(3) {
+        grid-column: span 9;
+        grid-row: span 1;
+    }
+    #settings .elmnts:nth-child(4) {
+        grid-column: span 9;
+        grid-row: span 1;
+    }
+    /* support layout */
+    #support .elmnts:nth-child(1) {
+        grid-column: span 3;
+        grid-row: span 5;
+    }
+    #support .elmnts:nth-child(2) {
+        grid-column: span 6;
+        grid-row: span 4;
+    }
+    #support .elmnts:nth-child(3) {
+        grid-column: span 3;
+        grid-row: span 4;
+    }
+    #support .elmnts:nth-child(4) {
+        grid-column: span 9;
+        grid-row: span 1;
+    }
+
+} /* === media : desktop === */

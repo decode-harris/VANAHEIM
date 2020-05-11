@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VANAHEIM | dashboard | template</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/properties.css">
+    <link rel="stylesheet" href="src/css/nav.css">
+    <link rel="stylesheet" href="src/css/media.css">
+    <!-- js -->
+    <script defer src="src/js/index.js"></script>
+    <script defer src="src/js/accounts.js"></script>
+    <script defer src="src/js/views.js"></script>
+    <!-- libs -->
+    <script src="https://kit.fontawesome.com/4dff4a55ad.js" crossorigin="anonymous"></script>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Josefin+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- app -->
+<section class="app">
+
+    <!-- checkbox -->
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="open"></i>
+        <i class="fas fa-times" id="close"></i>
+    </label>
+    <!-- checkbox -->
+    
+    <!-- nav -->
+    <nav class="nav">
+        <h1 class="title" id="btn__home">
+            <i class="fas fa-brain"></i>
+            vanaheim
+        </h1>
+        
+        <!-- ul -->
+        <ul class="ul">
+            <li><a href="#" id="btn__dash"><i class="fas fa-chalkboard"></i>dashboard</a></li>
+            <li><a href="#" id="btn__shar"><i class="fas fa-share-alt-square"></i>share</a></li>
+            <li><a href="#" id="btn__data"><i class="fas fa-database"></i>database</a></li>
+            <li><a href="#" id="btn__acct"><i class="far fa-user-circle"></i>account</a></li>
+            <li><a href="#" id="btn__sett"><i class="fas fa-cog"></i>settings</a></li>
+            <li><a href="#" id="btn__supp"><i class="far fa-question-circle"></i>support</a></li>
+        </ul>
+        <!-- ul -->
+    </nav>
+    <!-- nav -->
+
+    <!-- main -->
+    <main class="main">
+        <!-- homepage -->
+        <article class="article" id="homepage">
+            <!-- elmnts -->
+            <div class="elmnts">
+                <!-- title -->
+                <h3 class="title">Welcome To Vanaheim Dashboards</h3>
+                <p class="tag">Advanced Templating Systems & Designs</p>
+                <!-- title -->
+                <!-- about -->
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi.
+                </p>
+                <!-- about -->
+            </div>
+            <!-- elmnts -->
+        </article>
+        <!-- homepage -->
+
+        <!-- dashboard -->
+        <article class="article" id="dashboard" style="display: none;">
+            <!-- title -->
+            <div class="elmnts">
+                <h2 class="title">Dashboard</h2>
+                <h5>Presented By Vanaheim Dashboards</h5>
+                <p class="tag">Advanced Templating Systems & Designs</p>
+            </div>
+            <!-- title -->
+            <!-- overview -->
+            <div class="elmnts">
+                <i class="fas fa-inbox"></i>
+                <h4 class="title__panel">panel 01</h4>
+                <p class="text">overview | overview | overview | overview</p>
+            </div>
+            <!-- overview -->
+            <!-- monitoring -->
+            <div class="elmnts">
+                <i class="fas fa-video"></i>
+                <h4 class="title__panel">panel 02</h4>
+                <p class="text">monitoring | monitoring | monitoring | monitoring</p>
+            </div>
+            <!-- monitoring -->
+            <!-- diagnostics -->
+            <div class="elmnts">
+                <i class="fas fa-sync-alt"></i>
+                <h4 class="title__panel">panel 03</h4>
+                <p class="text">diagnostics | diagnostics | diagnostics | diagnostics |</p>
+            </div>
+            <!-- diagnostics -->
+            <!-- analytics -->
+            <div class="elmnts">
+                <i class="fas fa-archive"></i>
+                <h4 class="title__panel">panel 04</h4>
+                <p class="text">analytics | analytics | analytics | analytics</p>
+            </div>
+            <!-- analytics -->
+            <!-- graphs -->
+            <div class="elmnts">
+                <i class="fas fa-chart-bar"></i>
+                <h4 class="title__panel">panel 05</h4>
+                <p class="text">graphs | graphs | graphs | graphs</p>
+            </div>
+            <!-- graphs -->
+        </article>
+        <!-- dashboard -->
+
+        <!-- sharepage -->
+        <article class="article" id="sharepage" style="display: none;">
+            <!-- title -->
+            <div class="elmnts">
+                <h2 class="title">Share Center</h2>
+                <h5>Presented By Vanaheim Dashboards</h5>
+                <p class="tag">Advanced Templating Systems & Designs</p>
+            </div>
+            <!-- social -->
+            <div class="elmnts">
+                <!-- ul : social -->
+                <ul class="ul__social">
+                    <li><i class="fab fa-github-square"></i></li>
+                    <li><i class="fab fa-slack"></i></li>
+                    <li><i class="fab fa-codepen"></i></li>
+                    <li><i class="fab fa-trello"></i></li>
+                </ul>
+                <!-- ul : social -->
+            </div>
+            <!-- social -->
+            <div class="elmnts">
+                <!-- form : social -->
+                <form action="" class="form__social">
+                    <i class="fas fa-envelope-square"></i>
+                    <h4 class="title__panel">Send Attachment</h4>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, id.</p>
+
+                    <input type="text" id="recipient" placeholder="recipient">
+                    <input type="text" id="sender" placeholder="sender">
+                    <input type="email" id="email" placeholder="email">
+                    <input type="file" id="file" class="default__file" placeholder="attachment">
+                    <label for="file">
+                        <i class="fas fa-paperclip"></i>
+                        upload a file</label>
+                    <button type="submit" id="btn__submit">Send</button>
+                </form>
+                <!-- form : social -->
+            </div>
+        </article>
+        <!-- sharepage -->
+
+        <!-- database -->
+        <article class="article" id="database" style="display: none;">
+            <!-- elmnts -->
+            <div class="elmnts">
+                <!-- title -->
+                <h2 class="title">Database</h2>
+                <h5>Presented By Vanaheim Dashboards</h5>
+                <p class="tag">Advanced Templating Systems & Designs</p>
+                <!-- title -->
+            </div>
+            <div class="elmnts">
+                <i class="fas fa-database"></i>
+                <h4 class="title__panel">Capacity :</h4>
+                <p class="title">
+                    <span>
+                        25,000
+                    </span>
+                    GB
+                </p>
+            </div>
+            <div class="elmnts">
+                <i class="fas fa-archive"></i>
+                <h4 class="title__panel">Usage :</h4>
+                <p class="title">
+                    <span>
+                        10,000
+                    </span>
+                    GB
+                </p>
+            </div>
+            <div class="elmnts">
+                <i class="fas fa-server"></i>
+                <h4 class="title__panel">Free :</h4>
+                <p class="title">
+                    <span>
+                        15,000
+                    </span>
+                    GB
+                </p>
+            </div>
+            <div class="elmnts">
+                
+                <i class="far fa-bell"></i>
+                <h4 class="title__panel">Remaining :</h4>
+                <p class="title">
+                    <span>
+                        1,000
+                    </span>
+                    GB
+                </p>
+            </div>
+            <!-- elmnts -->
+        </article>
+        <!-- database -->
+
+        <!-- account -->
+        <article class="article" id="account" style="display: none;">
+            <!-- elmnts -->
+            <div class="elmnts">
+                <!-- title -->
+                <h2 class="title">Account</h2>
+                <h5>Presented By Vanaheim Dashboards</h5>
+                <p class="tag">Advanced Templating Systems & Designs</p>
+                <!-- title -->
+            </div>
+            <div class="elmnts">
+                <p class="title" id="acct__text">
+                    Please log in to view this section of content.
+                </p>
+                <!-- form : signin -->
+                <form action="" class="form__signin" style="display: none;">
+                    <i class="far fa-user-circle"></i>
+                    <h4 class="title__panel">User Account</h4>
+                    <input type="text" name="username" id="signin__user" placeholder="username">
+                    <input type="password" name="password" id="signin__pass" placeholder="password">
+                    <button class="submit__signin">Login</button>
+                </form>
+                <!-- form : signin -->
+
+                <!-- form : signup -->
+                <form action="" class="form__signup" style="display: none;">
+                    <i class="far fa-user-circle"></i>
+                    <h4 class="title__panel">New Account</h4>
+                    <input type="text" name="username" id="username" placeholder="username">
+                    <input type="password" name="password" id="password" placeholder="password">
+                    <input type="password" name="repeat__password" id="repeat__password" placeholder="repeat password">
+                    <button class="submit__signup">Signup</button>
+                </form>
+                <!-- form : signup -->
+
+                <!-- overview -->
+                <section class="overview" style="display: none;">
+                    <i class="far fa-user-circle"></i>
+                    <h3 class="title__panel">Account Details</h3>
+                    <p class="tag">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, eos.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, eos.
+                    </p>
+                    <!-- ul : overview -->
+                    <ul class="ul__overview">
+                        <li><span class="bold">username :</span>
+                            <p class="text" id="over__user"></p>
+                        </li>
+                        <li><span class="bold">password :</span>
+                            <p class="text" id="over__pass"></p>
+                        </li>
+                        <li><span class="bold">email :</span>
+                            <p class="text" id="over__emal"></p>
+                        </li>
+                        <li><span class="bold">code :</span>
+                            <p class="text" id="over__code"></p>
+                        </li>
+                        <li><span class="bold">date :</span>
+                            <p class="text" id="over__date"></p>
+                        </li>
+                    </ul>
+                    <!-- ul : overview -->
+                </section>
+                <!-- overview -->
+            </div>
+            <div class="elmnts">
+                <div class="access" id="user__btn" style="display: flex;">
+                    <!-- btn : login -->
+                    <button id="btn__signin">login</button>
+                    <p class="text">Dont have an account? 
+                        <a href="#" id="btn__signup">Sign up</a>
+                        here!
+                    </p>
+                    <!-- btn : login -->
+                </div>
+                <div class="access" id="user__msg" style="display: none;">
+                    <p class="title" id="user__new" style="display: none;">
+                        welcome to the vanaheim platform!
+                    </p>
+                    <p class="title" id="user__old" style="display: none;">
+                        welcome back to the vanaheim platform!
+                    </p>
+                </div>
+                
+            </div>
+            <!-- elmnts -->
+        </article>
+        <!-- account -->
+
+        <!-- settings -->
+        <article class="article" id="settings" style="display: none;">
+            <!-- elmnts -->
+            <div class="elmnts">
+                <!-- title -->
+                <h2 class="title">Settings</h2>
+                <h5>Presented By Vanaheim Dashboards</h5>
+                <p class="tag">Advanced Templating Systems & Designs</p>
+                <!-- title -->
+            </div>
+            <div class="elmnts">
+                <i class="fas fa-cog"></i>
+                <h4 class="title__panel">Settings : Change Interface Color</h4>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi.</p>
+                
+                <!-- ul -->
+                <ul>
+                    <!-- settings: color -->
+                    <li><button id="btn__blue"></button></li>
+                    <li><button id="btn__red"></button></li>
+                    <li><button id="btn__green"></button></li>
+                    <li><button id="btn__purple"></button></li>
+                    <li><button id="btn__orange"></button></li>
+                    <li><button id="btn__yellow"></button></li>
+                    <!-- settings: color -->
+                </ul>
+                <!-- ul -->
+            </div>
+            <div class="elmnts">
+                <i class="fas fa-th-large"></i>
+                <h4 class="title__panel">Settings : Change Dash Color</h4>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi.</p>
+
+                <!-- ul -->
+                <ul>
+                    <!-- settings: color -->
+                    <li><button id="btn__bluescale"></button></li>
+                    <li><button id="btn__redscale"></button></li>
+                    <li><button id="btn__greenscale"></button></li>
+                    <li><button id="btn__purplescale"></button></li>
+                    <li><button id="btn__orangescale"></button></li>
+                    <li><button id="btn__yellowscale"></button></li>
+                    <!-- settings: color -->
+                </ul>
+                <!-- ul -->
+
+            </div>
+            <div class="elmnts">
+                <i class="fas fa-exclamation-triangle"></i>
+                <h4 class="title__panel">Settings : Coming Soon</h4>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi.</p>
+                
+            </div>
+            <!-- elmnts -->
+        </article>
+        <!-- settings -->
+
+        <!-- support -->
+        <article class="article" id="support" style="display: none;">
+            <!-- elmnts -->
+            <div class="elmnts">
+                <!-- title -->
+                <h2 class="title">Support</h2>
+                <h5>Presented By Vanaheim Dashboards</h5>
+                <p class="tag">Advanced Templating Systems & Designs</p>
+                <!-- title -->
+            </div>
+            <div class="elmnts">
+                <!-- form : contact -->
+                <form action="" class="form__contact">
+                    <i class="far fa-envelope-open"></i>
+                    <h4 class="title__panel">Inquire Here</h4>
+                    <input type="text" id="contact__user" placeholder="user">
+                    <input type="text" id="contact__name" placeholder="name">
+                    <input type="text" id="contact__emal" placeholder="email">
+                    <textarea name="comments" id="contact__text" cols="30" rows="4" placeholder="comment & inquiries"></textarea>
+                    <button class="submit__contact">Submit</button>
+                </form>
+                <!-- form : contact -->
+            </div>
+            <div class="elmnts">
+                <i class="far fa-comments"></i>
+                <h4 class="title__panel">Contact Us</h4>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi.</p>
+                
+                <!-- ul -->
+                <ul>
+                    <!-- support options -->
+                    <li>24 / 7 support available</li>
+                    <li>phone, text, email, live chat, video calls</li>
+                    <li>ongoing update notifications</li>
+                    <li>call out & delivery free in Melbourne</li>
+                    <!-- support options -->
+                </ul>
+                <!-- ul -->
+            </div>
+            <div class="elmnts">
+                <p class="title">
+                    we are here to help with all your technical needs
+                </p>
+            </div>
+            <!-- elmnts -->
+        </article>
+        <!-- support -->
+
+        <!-- video -->
+        <video class="main__video" autoplay muted loop>
+            <source src="src/css/media/main.mp4" type="video/mp4">
+        </video>
+        <!-- video -->
+
+    </main>
+    <!-- main -->
+
+</section>
+<!-- app -->
+
+    
+    
+</body>
+</html>
